@@ -1,0 +1,26 @@
+{
+    "name": "adunsulag/openemr-module-installer-plugin",
+    "description": "OpenEMR Module Installer plugin for installing custom modules into the OpenEMR codebase.",
+    "type": "composer-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Stephen Nielson",
+            "email": "stephen@nielson.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-0": {"OpenEMR\\Composer\\ModuleInstallerPlugin": "src/"}
+    },
+    "extra": {
+        "class": "OpenEMR\\Composer\\ModuleInstallerPlugin\\Plugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.3"
+    }
+}
