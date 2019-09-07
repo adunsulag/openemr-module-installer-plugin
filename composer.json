@@ -3,10 +3,12 @@
     "description": "OpenEMR Module Installer plugin for installing custom modules into the OpenEMR codebase.",
     "type": "composer-plugin",
     "license": "GPL-3.0",
+    "keywords": ["openemr", "openemr-module"],
     "authors": [
         {
             "name": "Stephen Nielson",
-            "email": "stephen@nielson.org"
+            "email": "stephen@nielson.org",
+	    "role": "Developer"
         }
     ],
     "minimum-stability": "stable",
