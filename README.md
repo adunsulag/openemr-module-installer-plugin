@@ -10,14 +10,8 @@ For Custom Modules
     "name": "openemr/SomeCustomModule",
     "type": "openemr-zend-module",
     "require": {
-        "adunsulag/openemr-module-installer-plugin": "*"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/adunsulag/openemr-module-installer-plugin"
-        }
-    ],
+        "adunsulag/openemr-module-installer-plugin": "^0.1.0"
+    }
 }
 ```
 The above module will install in the *interface/modules/zend/modules/SomeCustomModule/* directory
@@ -30,14 +24,8 @@ For Zend Framework Modules
     "name": "openemr/SomeCustomModule",
     "type": "openemr-zend-module",
     "require": {
-        "adunsulag/openemr-module-installer-plugin": "*"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/adunsulag/openemr-module-installer-plugin"
-        }
-    ],
+        "adunsulag/openemr-module-installer-plugin": "^0.1.0"
+    }
 }
 ```
 The above module will install in the *interface/modules/custom_modules/SomeCustomModule/* directory
