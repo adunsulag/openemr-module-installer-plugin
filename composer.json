@@ -10,9 +10,8 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
     "autoload": {
-        "psr-0": {"OpenEMR\\Composer\\ModuleInstallerPlugin": "src/"}
+        "psr-4": {"OpenEMR\\Composer\\ModuleInstallerPlugin\\": "src/"}
     },
     "extra": {
         "class": "OpenEMR\\Composer\\ModuleInstallerPlugin\\Plugin"
